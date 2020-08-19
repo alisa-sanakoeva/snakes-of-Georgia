@@ -1,9 +1,41 @@
 # Unilab Flask Server [demo]
-This is Flask Web Server for my project "snakes"
+Flask Web Server for project "Snakes of Georgia database"
 
 ## Documentation
-Snake database
+A database to contain data about snakes native to Georgia
 
-**Method**:
-POST : _/snakes_
-`price` type: float
+**Methods**:
+
+GET : _/snakes_
+
+GET : _/snakes/<string:species>_
+
+POST : _/snakes/<string:species>_
+
+`latin_name` type: string
+
+`location` type: string
+
+`date` type: string
+
+PUT : _/snakes/<string:species>_
+
+`latin_name` type: string
+
+`location` type: string
+
+`date` type: string
+
+DELETE : _/snakes/<string:species>_
+
+POST : _/registration_
+
+`username` type: string
+
+`password` type: string
+
+DELETE : _/registration_
+
+`username` type: string
+
+`password` type: string

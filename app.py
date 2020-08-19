@@ -20,8 +20,8 @@ jwt = JWT(app, authentification, identity)
 api = Api(app)
 
 @app.route('/')
-def redirect2url():
-    return redirect("https://github.com/alisa-sanakoeva/snakes-of-Georgia")
+def home():
+    return redirect("https://documenter.getpostman.com/view/11825205/T1LPD7Kj?version=latest")
 
 api.add_resource(Item, '/snakes/<string:species>')
 api.add_resource(Itemlist, '/snakes')
