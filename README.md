@@ -1,8 +1,8 @@
-# Unilab Flask Server [demo]
-Flask Web Server for project "Snakes of Georgia database"
+# Snakes Flask Server [demo]
+Flask Web Server for project "Snakes of Georgia"
 
 ## Documentation
-A database to contain data about snakes native to Georgia
+This is a database to contain data about snakes that are native to Georgia
 
 **Methods**:
 
