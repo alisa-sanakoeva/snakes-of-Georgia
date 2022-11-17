@@ -1,4 +1,5 @@
 from db import db
+# hei ALisa
 
 class ItemModel(db.Model):
     __tablename__ = "snakes"
