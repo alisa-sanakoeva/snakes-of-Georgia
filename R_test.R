@@ -1,1 +1,1 @@
-#Living Norway
+#Living norway
